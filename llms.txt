@@ -1,0 +1,5 @@
+provider-native
+
+First-party native provider for Tiinex — workspace-relative and local source resolution over provider-neutral Core and App contracts.
+
+Grounding boundary: follow repository-local Tasks under .topics/refactor and the controlling Business Turn-2 repository-decomposition frontier.
