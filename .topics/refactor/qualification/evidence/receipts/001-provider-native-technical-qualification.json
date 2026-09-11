@@ -1,0 +1,112 @@
+{
+  "schema": "tiinex.provider.technical-qualification-receipt.v1",
+  "workspaceId": "provider-native",
+  "package": {
+    "name": "@tiinex/provider-native",
+    "version": "0.1.0"
+  },
+  "qualification": {
+    "test": {
+      "command": "npm test",
+      "exitCode": 0,
+      "tests": 6,
+      "pass": 6,
+      "fail": 0,
+      "expectedTests": 6,
+      "stdoutPath": ".topics/refactor/qualification/evidence/receipts/001-provider-native-npm-test.tap",
+      "stdoutSha256": "9397e4be495148bc05cd332f237db1a54c1fc8e566010196def5bc5766689ebb"
+    },
+    "pack": {
+      "command": "npm pack --dry-run --json",
+      "exitCode": 0,
+      "outputPath": ".topics/refactor/qualification/evidence/receipts/001-provider-native-npm-pack-dry-run.json",
+      "outputSha256": "b603152a3487f679babb71629150725f77dec36d4c7d29e309e3b8d39c7b05dc",
+      "filename": "tiinex-provider-native-0.1.0.tgz",
+      "size": 9482,
+      "unpackedSize": 29838,
+      "shasum": "ce7d33984a4a95de772ae20767c1e962c5a5defd",
+      "integrity": "sha512-T9Ry2sL1o4Fbe1fXQLQ9PSaJ9T0WQpgHzZrA6OQtlpkKW/aalAfDhuqnujaZqhWg4LrVH1PjMfKiSxy1dT+abw==",
+      "entryCount": 7,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 10325,
+          "mode": 420
+        },
+        {
+          "path": "NOTICE",
+          "size": 1066,
+          "mode": 420
+        },
+        {
+          "path": "README.md",
+          "size": 2497,
+          "mode": 420
+        },
+        {
+          "path": "package.json",
+          "size": 1084,
+          "mode": 420
+        },
+        {
+          "path": "src/index.js",
+          "size": 440,
+          "mode": 420
+        },
+        {
+          "path": "src/native.paths.js",
+          "size": 3772,
+          "mode": 420
+        },
+        {
+          "path": "src/native.provider.js",
+          "size": 10654,
+          "mode": 420
+        }
+      ]
+    }
+  },
+  "sourceManifest": [
+    {
+      "path": "package.json",
+      "bytes": 1084,
+      "sha256": "68b67e1466b17b44e736ac1f7378731749cdf33733eafd22e9678da963eafc03"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 611,
+      "sha256": "a557bbc9239db25f757aec7d06d7ee9c60d326b5d973a5a06895c2f56fafc019"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2497,
+      "sha256": "3caa7b491e205136bbc80edf8e66c65e43fa4875383dc195fa45f90ae55642a5"
+    },
+    {
+      "path": "src/index.js",
+      "bytes": 440,
+      "sha256": "035a2f6a40bb4930924a3cbd8011b7537ab8e740f86ade36a2955b709961bd32"
+    },
+    {
+      "path": "src/native.paths.js",
+      "bytes": 3772,
+      "sha256": "c4bd09512246044162aa3f364ecdc708eca2b7e46b7b6b462b1086730fc0ff2a"
+    },
+    {
+      "path": "src/native.provider.js",
+      "bytes": 10654,
+      "sha256": "2028cd48f2fed58c1d468ccaf9bcba8ab5164622a3f8e88526c803cb9ed253fe"
+    },
+    {
+      "path": "test/native-provider.test.mjs",
+      "bytes": 4568,
+      "sha256": "9c8dabecd9fc090018dfb9f1489dbb1d4e5ac12857c6f58907b7d549947b91ef"
+    },
+    {
+      "path": "test/package-boundary.test.mjs",
+      "bytes": 1181,
+      "sha256": "33c06c88df848324c37e2b0b4a4ab1baa278c89d22a7cfc1880638f981b44fae"
+    }
+  ],
+  "boundary": "Local technical qualification only. No npm publication, registry mutation, Core mutation, or App mutation was performed."
+}

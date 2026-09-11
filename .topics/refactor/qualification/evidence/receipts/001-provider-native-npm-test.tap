@@ -1,0 +1,50 @@
+
+> @tiinex/provider-native@0.1.0 test
+> node --test test/*.test.mjs
+
+TAP version 13
+# Subtest: native provider exposes an ordinary provider-neutral adapter contract
+ok 1 - native provider exposes an ordinary provider-neutral adapter contract
+  ---
+  duration_ms: 0.904674
+  type: 'test'
+  ...
+# Subtest: native source registration requires an explicit absolute root
+ok 2 - native source registration requires an explicit absolute root
+  ---
+  duration_ms: 0.696011
+  type: 'test'
+  ...
+# Subtest: workspace-relative normalization fails closed on traversal and absolute paths
+ok 3 - workspace-relative normalization fails closed on traversal and absolute paths
+  ---
+  duration_ms: 0.415692
+  type: 'test'
+  ...
+# Subtest: native discovery is deterministic, Markdown-only, and skips symlink surfaces
+ok 4 - native discovery is deterministic, Markdown-only, and skips symlink surfaces
+  ---
+  duration_ms: 19.667749
+  type: 'test'
+  ...
+# Subtest: native materialization preserves workspace-relative source identity and rejects escape attempts
+ok 5 - native materialization preserves workspace-relative source identity and rejects escape attempts
+  ---
+  duration_ms: 6.08052
+  type: 'test'
+  ...
+# Subtest: package and release policy bind the provider-native repository identity and public provider surface
+ok 6 - package and release policy bind the provider-native repository identity and public provider surface
+  ---
+  duration_ms: 16.896397
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 89.258262

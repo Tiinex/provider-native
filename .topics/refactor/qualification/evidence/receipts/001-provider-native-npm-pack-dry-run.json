@@ -1,0 +1,51 @@
+[
+  {
+    "id": "@tiinex/provider-native@0.1.0",
+    "name": "@tiinex/provider-native",
+    "version": "0.1.0",
+    "size": 9482,
+    "unpackedSize": 29838,
+    "shasum": "ce7d33984a4a95de772ae20767c1e962c5a5defd",
+    "integrity": "sha512-T9Ry2sL1o4Fbe1fXQLQ9PSaJ9T0WQpgHzZrA6OQtlpkKW/aalAfDhuqnujaZqhWg4LrVH1PjMfKiSxy1dT+abw==",
+    "filename": "tiinex-provider-native-0.1.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 10325,
+        "mode": 420
+      },
+      {
+        "path": "NOTICE",
+        "size": 1066,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 2497,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 1084,
+        "mode": 420
+      },
+      {
+        "path": "src/index.js",
+        "size": 440,
+        "mode": 420
+      },
+      {
+        "path": "src/native.paths.js",
+        "size": 3772,
+        "mode": 420
+      },
+      {
+        "path": "src/native.provider.js",
+        "size": 10654,
+        "mode": 420
+      }
+    ],
+    "entryCount": 7,
+    "bundled": []
+  }
+]
