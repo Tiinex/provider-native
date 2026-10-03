@@ -2,4 +2,7 @@ provider-native
 
 First-party native provider for Tiinex — workspace-relative and local source resolution over provider-neutral Core and App contracts.
 
-Grounding boundary: follow repository-local Tasks under .topics/refactor and the controlling Business Turn-2 repository-decomposition frontier.
+Grounding boundary:
+- Start from `.topics/.workspaces/tiinex-provider-native.workspace.md` and the Workspace fresh-start Reduction under `.topics/reductions/workspace/`.
+- Earlier extraction/refactor work is reduced; no historical leaf is current merely because it remains recoverable. Future Native-provider work starts from a new explicit bounded Task with truthful Project ancestry.
+- Keep provider-neutral semantic qualification in its owning shared layer.
