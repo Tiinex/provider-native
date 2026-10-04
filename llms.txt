@@ -1,8 +1,7 @@
-provider-native
+# Tiinex/provider-native LLM Bootstrap
 
-First-party native provider for Tiinex — workspace-relative and local source resolution over provider-neutral Core and App contracts.
+This repository uses Tiinex. `.topics/**` and qualified source material are semantic/provenance authority; this file is only a bootstrap hint.
 
-Grounding boundary:
-- Start from `.topics/.workspaces/tiinex-provider-native.workspace.md` and the Workspace fresh-start Reduction under `.topics/reductions/workspace/`.
-- Earlier extraction/refactor work is reduced; no historical leaf is current merely because it remains recoverable. Future Native-provider work starts from a new explicit bounded Task with truthful Project ancestry.
-- Keep provider-neutral semantic qualification in its owning shared layer.
+Use Tiinex Tooling to discover and qualify the Workspace entrypoint under `.topics/.workspaces`, then follow only the qualified artifacts and processes applicable to the current task.
+
+Do not use `llms.txt` or `README.md` as an artifact index, current-work declaration, or substitute for Tiinex discovery/grounding.
